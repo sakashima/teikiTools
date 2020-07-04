@@ -4,7 +4,7 @@
 // @version      0.5
 // @downloadURL  https://github.com/sakashima/teikiTools/blob/master/IBRhpspPercentViewer.user.js
 // @updateURL    https://github.com/sakashima/teikiTools/blob/master/IBRhpspPercentViewer.user.js
-// @description  イバラの戦闘行動画面で『自分ＨＰ○％以下』『自分ＳＰ○％以上・以下』の実数を表示するスクリプト
+// @description  イバラの戦闘行動画面で『自分ＨＰ○％以下』『自分ＳＰ○％以上・以下』の実際の値を表示するスクリプト
 // @author       のりしろ nrsr_cw
 // @match        http://lisge.com/ib/act_battle.php
 // @grant        none

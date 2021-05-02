@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         IBRresultStudyViewer
-// @namespace    https://twitter.com/nrsr_cw
-// @version      0.5
+// @namespace    http://tampermonkey.net/
+// @version      0.5.1
 // @downloadURL  https://github.com/sakashima/teikiTools/blob/master/IBRresultStudyViewer.user.js
 // @updateURL    https://github.com/sakashima/teikiTools/blob/master/IBRresultStudyViewer.user.js
 // @description  騒乱イバラシティの決闘結果・練習戦結果に研究深度を載せる
@@ -215,17 +215,12 @@
             ];
             for(let i = 0; i < teams.length; i++){
                 // チームごとのループ
-                for(let j = 0; j < teams[i].length; j++){
-                    // 各キャラクターのループ
-                    if(j === 0){
-                        let teamName = $('<p></p>',{
-                            "class": 'stdv_team_name_box',
-                            text: teams[i][0].teamName
-                        });
-                        teamName.addClass('stdv_team_name' + i);
-                        $('#stdv_container' + i).append(teamName.clone(true));
-                    }
-                }
+                let teamName = $('<p></p>',{
+                    "class": 'stdv_team_name_box',
+                    text: teams[i][0].teamName
+                });
+                teamName.addClass('stdv_team_name' + i);
+                $('#stdv_container' + i).append(teamName.clone(true));
                 fetchResults(teams[i], cacheText).then((result) => {
                     // 取り終わった結果を加工
                     result.forEach((table, index) => {

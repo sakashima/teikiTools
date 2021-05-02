@@ -1,7 +1,9 @@
 // ==UserScript==
 // @name         IBRresultStudyViewer
-// @namespace    http://tampermonkey.net/
+// @namespace    https://twitter.com/nrsr_cw
 // @version      0.5
+// @downloadURL  https://github.com/sakashima/teikiTools/blob/master/IBRresultStudyViewer.user.js
+// @updateURL    https://github.com/sakashima/teikiTools/blob/master/IBRresultStudyViewer.user.js
 // @description  騒乱イバラシティの決闘結果・練習戦結果に研究深度を載せる
 // @author       @nrsr_cw
 // @match        http://lisge.com/ib/k/*/*b3.html

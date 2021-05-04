@@ -2,8 +2,10 @@
 // @name         IBRaddNextResult
 // @namespace    http://tampermonkey.net/
 // @version      1.0
-// @description  try to take over the world!
+// @description  イバラの各キャラの結果に次回へのリンクを追加する
 // @author       @nrsr_cw
+// @downloadURL  https://github.com/sakashima/teikiTools/blob/master/IBRaddNextResult.user.js
+// @updateURL    https://github.com/sakashima/teikiTools/blob/master/IBRaddNextResult.user.js
 // @match        http://lisge.com/ib/k/*/r*.html
 // @exclude      http://lisge.com/ib/k/*/r*b*.html
 // @exclude      http://lisge.com/ib/k/now/*
